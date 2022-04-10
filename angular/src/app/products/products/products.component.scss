@@ -1,0 +1,56 @@
+table {
+  width: 100%;
+}
+
+.loading-spinner {
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 33px;
+  color: #ccc;
+}
+
+.currency {
+  font-size: 20px;
+}
+
+.product {
+  font-size: 20px;
+}
+
+.price {
+  font-size: 33px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.product-column {
+  max-width: 80%;
+}
+
+.product-name {
+  width: auto;
+  min-width: 100px;
+  font-size: large;
+}
+
+.product-photo {
+  max-height: 200px;
+  margin: 6px;
+}
+
+.product-description {
+  max-width: 800px;
+  margin: 6px;
+}
+
+
+.mat-column-productName {
+  flex: 0 0 50%;
+}
+
